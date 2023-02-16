@@ -4,8 +4,8 @@
     $base = '/programacao/curso/B7Web/php/devsbook_oop/';
     $host = 'localhost';
     $db = 'devsbook';
-    $user = 'root';
-    $password = '';
+    $user = 'leo';
+    $password = 'Aa119539$';
 
     try {
         $conection = new PDO("mysql:host=$host;dbname=$db", "$user", "$password");
@@ -13,5 +13,3 @@
         echo 'Erro linha: ' . $th->getLine() . "<br>";
         echo ('Código: ' . $th->getMessage());
     };
-    
-?>
